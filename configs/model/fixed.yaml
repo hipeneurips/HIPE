@@ -1,0 +1,5 @@
+model_type: fixed
+fixed_noise: True
+fit_kwargs:
+  lengthscale: ${objective.lengthscales}
+  noise: None

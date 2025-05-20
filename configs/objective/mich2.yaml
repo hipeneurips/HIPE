@@ -1,0 +1,5 @@
+name: mich2
+type: test
+bounds: [[0, 3.1415], [0, 3.1415]]
+negate: True
+noise_std: 0.0

@@ -1,0 +1,5 @@
+name: branin
+type: test
+bounds: [[-5, 10], [0, 15]]
+negate: True
+noise_std: 0.0

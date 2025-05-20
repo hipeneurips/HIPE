@@ -1,0 +1,6 @@
+name: gp_8dim
+type: test
+bounds: [[0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1]]
+lengthscales: [0.8, 0.8, 1.6, 1.6, 4, 4, 4, 4]
+negate: False
+noise_std: 0.25

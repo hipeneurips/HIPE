@@ -1,0 +1,5 @@
+name: ackley2
+type: test
+bounds: [[-10, 10], [-10, 10]]
+negate: True
+noise_std: 0.0

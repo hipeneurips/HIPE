@@ -1,0 +1,7 @@
+name: var
+save_name: ${init.name}
+model_based: true
+include_center: true
+acq_kwargs: 
+  {}
+  

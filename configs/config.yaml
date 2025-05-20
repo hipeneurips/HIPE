@@ -1,0 +1,22 @@
+defaults:
+  - init: sobol
+  - acq: logei
+  - model: fb
+  - acq_opt: default
+  - objective: hartmann6
+  - _self_
+
+eval: true
+task: bo
+
+seed: 42
+
+experiment:
+  name: test
+  budget: 48
+  batch_size: ${acq_opt.q} # THIS IS NOT WHERE YOU CHANGE THE BATCH SIZE
+  start_q: ${experiment.batch_size} # NOT HERE EITHER
+  save_path: "results/${experiment.name}/${objective.name}/${init.save_name}/seed${seed}"
+evaluation: 
+  test_set_size: 250
+    

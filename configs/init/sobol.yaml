@@ -1,0 +1,4 @@
+name: sobol
+save_name: ${init.name}
+include_center: true
+acq_kwargs: null

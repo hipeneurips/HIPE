@@ -1,0 +1,65 @@
+# Byte-compiled files
+__pycache__/
+*TODO.md
+*.py[cod]
+*$py.class
+*.png
+*.pdf
+*.sif
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache and temporary files
+*.cache
+*.log
+*.tmp
+*.temp
+*.pid
+*.gz
+*.zip
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Hydra output directories
+outputs/
+multirun/
+results/
+
+# PyTorch-specific files
+*.pt
+*.pth
+*.ckpt
+
+# IDE and editor directories/files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variable files
+.env
+*.env
+
+# Miscellaneous
+*.pkl
+*.h5
+*.csv
+*.json
+*.db
+*.out
+*.sh

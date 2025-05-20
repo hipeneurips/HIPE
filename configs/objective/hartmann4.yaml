@@ -1,0 +1,5 @@
+name: hartmann4
+type: test
+bounds: [[0, 1], [0, 1], [0, 1], [0, 1]]
+negate: True
+noise_std: 0.5

@@ -1,0 +1,8 @@
+name: bald
+save_name: ${init.name}
+model_based: true
+include_center: true
+acq_kwargs: 
+  num_samples: 128
+  sampler: null
+  

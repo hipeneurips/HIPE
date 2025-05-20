@@ -1,0 +1,9 @@
+raw_samples: 384
+num_restarts: 4
+q: 4
+options:
+  sample_around_best: false
+  sequential: false
+  batch_limit: 64
+  maxiter: 250
+  

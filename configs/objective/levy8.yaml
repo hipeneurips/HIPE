@@ -1,0 +1,5 @@
+name: levy8
+type: test
+bounds: [[-5, 5], [-5, 5], [-5, 10], [-5, 10], [-10, 5], [-10, 5], [-5, 5], [-5, 5]]
+negate: True
+noise_std: 2.5

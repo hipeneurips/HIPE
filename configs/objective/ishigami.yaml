@@ -1,0 +1,5 @@
+name: ishigami
+type: test
+bounds: [[-3.141527, 3.141527], [-3.141527, 3.141527], [-3.141527, 3.141527]]
+negate: True
+noise_std: 2.0

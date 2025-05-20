@@ -1,0 +1,10 @@
+name: hpig_beta
+save_name: ${init.name}
+model_based: true
+include_center: true
+acq_kwargs: 
+  num_samples: 128
+  num_mc_points: 1024
+
+
+  

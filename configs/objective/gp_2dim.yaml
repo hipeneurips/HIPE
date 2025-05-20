@@ -1,0 +1,6 @@
+name: gp_2dim
+type: test
+bounds: [[0, 1], [0, 1]]
+lengthscales: [0.35, 0.9]
+negate: False
+noise_std: 0.31

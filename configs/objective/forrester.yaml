@@ -1,0 +1,5 @@
+name: forrester
+type: test
+bounds: [[0, 1]]
+negate: True
+noise_std: 0.0

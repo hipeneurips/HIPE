@@ -1,0 +1,6 @@
+model_type: ei_map
+fixed_noise: True
+fit_kwargs:
+  max_attempts: 10
+  pick_best_of_all_attempts: False
+  

@@ -1,0 +1,6 @@
+name: sample
+type: test
+bounds: []
+negate: True
+noise_std: 0.0
+lengthscales: [0.1, 0.1]

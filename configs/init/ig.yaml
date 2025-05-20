@@ -1,0 +1,6 @@
+name: ig
+model_based: true
+include_center: false
+acq_kwargs: 
+  posterior_transform: null
+  

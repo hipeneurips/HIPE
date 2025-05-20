@@ -1,0 +1,6 @@
+name: diabetes
+type: lasso
+bounds: [[-1, 1], [-1, 1], [-1, 1], [-1, 1], [-1, 1], [-1, 1], [-1, 1], [-1, 1]]
+negate: True
+noise_std: 0.0
+sobol: false

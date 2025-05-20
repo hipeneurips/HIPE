@@ -1,0 +1,5 @@
+model_type: map
+fixed_noise: True
+fit_kwargs:
+  max_attempts: 10
+  

@@ -1,0 +1,6 @@
+name: epig
+save_name: ${init.name}
+model_based: true
+include_center: true
+acq_kwargs: 
+  num_mc_points: 1024

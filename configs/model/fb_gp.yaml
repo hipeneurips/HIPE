@@ -1,0 +1,18 @@
+model_type: fb_init
+fixed_noise: False
+fit_kwargs:
+  num_samples: 288
+  warmup_steps: 192
+  thinning: 12
+  disable_progbar: False
+standard_fit_kwargs:
+  num_samples: 288
+  warmup_steps: 192
+  thinning: 24
+  disable_progbar: False
+  
+pyro_model: 
+  name: scaled_dim
+  kwargs:
+    _ls_loc: -0.75
+    ls_scale: 0.75
